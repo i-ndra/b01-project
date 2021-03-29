@@ -80,63 +80,24 @@ body{
 }
 /* end of Fadhlan Hariz's code */
 
-a{
-  text-decoration: none;
-}
-.container{
-  width: 100%;
-  padding: 0 30px;
-  margin: 0 auto;
-}
-.armada-wrapper{
-  margin-top: 0;
-}
-.armada{
-  float: left;
-  width: 50%;
-}
-.armada img{
-  width: 80%;
-  height: 300px;
-  padding: 10px;
-}
-.heading{
-  text-align:center;
-}
-.container .heading h2{
-  font-family: viga;
-  font-size: : 5px;
-  color:black;
-  text-decoration:underline;
-}
-.armada h3{
-  font-family: viga;
-  font-size: 20px;
-  text-align: center;
-}
-.armadas a{
-  text-decoration: none;
-  color: #444444;
-}
-.armadas a:hover {
-  color: #18d26e;
-  text-decoration: none;
-}
 
 
-/* Indra */
+
+/*start Indra */
 .content-wrapper {
 	width: 90%;
 	background-color: lightblue;
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-left: 2%;
+  display: inline-block;
 }
 
 .exp {
 	width: 20%;
+  height:40% ;
 	float: left;
-	margin: 2% 5%;
+	margin: 4% 5%;
 	text-decoration: none;
 	color: black;
 	display: inline-block;
@@ -163,15 +124,99 @@ a{
 	text-align: center;
 }
 
-footer {
-  width: 100%;
-  height: 50px;
+
+/* end Indra */
+/* khusnul armada */
+.armada-wrapper{ 
+margin-top: 0px; 
+width: 100%; 
+padding: 0 30px; 
+margin: 0 auto; 
+} 
+
+.armadas{
+  display: inline-block;
+}
+.armada{ 
+float: left; 
+width: 50%; 
+} 
+
+.armada img{ 
+width: 80%; 
+height: 300px; 
+padding: 10px; 
+} 
+
+.heading{ 
+text-align:center; 
+margin-bottom: 50px;
+} 
+
+.heading h2{ 
+font-family: viga; 
+font-size: : 5px; 
+color:black; 
+/* text-decoration:underline;  */
+} 
+.heading hr{
+  margin-top: -25px;
+  width: 100px;
+  align-items: center;
+  height: 2px;
   background-color: #0C3BB0;
-  text-align: center;
-  color: white;
-  position: fixed;
-   left: 0;
-   bottom: 0;
 }
 
-/* Indra */
+.armada h3{ 
+font-family: viga; 
+font-size: 20px; 
+text-align: center; 
+}
+
+/*end khusnul*/
+
+/* fadhil */
+/* footer */
+.footer-content{
+    display: flex;
+    /* height: 30vh; */
+    margin: 115px 0 0 0;
+    background-color:  #0C3BB0;
+}
+.footer-list{
+    flex-basis: 50%;
+    color: #fff;
+}
+
+.footer-list li{  
+    list-style: none;
+    font-size: 20px;
+}
+.footer-list li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-list a:hover{
+    font-weight: bold;  
+}
+.footer-company {
+    flex-basis: 50%;
+    text-align: right;
+    padding: 0 40px;
+    color: #fff;
+}
+.footer-company h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-cr{
+    height: 30px ;
+    background-color: #344879;  
+    color: #fff;
+    text-align: center;
+}
+.footer-cr p{
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
