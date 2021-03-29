@@ -1,0 +1,98 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* Fadhlan Hariz */
+      .top-wrapper h1{
+        font-size: 25px;
+    }
+
+    .tujuan{
+        width: 350px;
+    }
+    .tanggal{
+        width: 100px
+    }
+    .pesan{
+        width: 100px;
+        font-size: 15px;
+    }
+
+    /* panel */
+    .menu{
+        height: 100px;
+    }
+    .wrapper img{
+        width: 70px;
+        height: 70px
+    }
+    .wrapper p{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+  /* end of Fadhlan Hariz's code */
+
+  body {
+    width: 100%;
+  }
+
+  .content-wrapper {
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 3%;
+  }
+
+  .exp {
+        width: 85%;
+        margin: 3% 1%;
+  }
+
+  .exp:hover {
+  transform: rotate(0deg);
+  color: white;
+  background-color: #0C3BB0;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* Fadhlan Hariz */
+      .top-wrapper{
+        height: 350px;
+    }
+    .top-wrapper h1{
+        font-size: 15px;
+        padding-top: 100px;
+    }
+    .top-wrapper input{
+        font-size: 12px;
+    }
+    .tujuan{
+        width: 250px;
+    }
+    .tanggal{
+        width: 100px;
+        margin-top: 15px;
+    }
+
+    /* panel */
+    .menu{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .wrapper img{
+        width: 80px;
+        height: 80px;
+    }
+    .wrapper p{
+        text-align:center;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+  /* End of Fadhlan Hariz's code */
+  .exp {
+    width: 90%;
+  }
+}
